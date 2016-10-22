@@ -14,7 +14,7 @@ namespace Assignments_Operations
 
             int myVar1 = 7, myVar2 = 8;
 
-            //myVar1 = myVar2;
+            //myVar1 = myVar2;  temp = myVar1 + myVar2
             //Console.WriteLine(myVar1);
             //=====================
             myVar1 += myVar2;
