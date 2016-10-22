@@ -18,6 +18,7 @@ namespace TernaryOperator
 
             string myName = "meda", result;
             result = (myName.Equals("meda")) ? "yes" : "no";
+            //.Equals use for comparing between strings
             Console.WriteLine(result);
             Console.ReadKey();
         }
