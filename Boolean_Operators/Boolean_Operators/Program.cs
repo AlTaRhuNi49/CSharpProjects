@@ -10,6 +10,9 @@ namespace Boolean_Operators
     {
         static void Main(string[] args)
         {
+            //Boolean Comparison ==, !=, <, >, <=, >=
+            //Boolean Condition &&, ||
+
             bool myResult;
             int myVar1 = 5, myVar2 = 6;
             myResult = myVar1 < myVar2;
