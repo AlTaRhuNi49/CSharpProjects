@@ -12,17 +12,17 @@ namespace Input_Functions
         {
             //ReadLine , Read
             //========================ReadLine==============
-            //string myName;
-            //int var1, var2;
-            //Console.WriteLine("enter ur name");
-            //myName = Console.ReadLine();//read line of what u type
-            //Console.WriteLine("\n please enter ur number fast");
-            //var1 = Convert.ToInt32(Console.ReadLine());//read the number as string so that's why need to be converted
-            //Console.WriteLine("hello my herro {0}  and ur number {1}", myName, var1);
+            string myName;
+            int var1, var2;
+            Console.WriteLine("enter ur name");
+            myName = Console.ReadLine();//read line of what u type
+            Console.WriteLine("\n please enter ur number fast");
+            var1 = Convert.ToInt32(Console.ReadLine());//read the number as string so that's why need to be converted
+            Console.WriteLine("hello my herro {0}  and ur number {1}", myName, var1);
             //===================Read================
             int var;
             Console.WriteLine("enter");
-            var = Console.Read();
+            var = Console.Read();//read on char and convert it to (-haskycode-)
             Console.WriteLine(var);
             Console.ReadKey();
         }
